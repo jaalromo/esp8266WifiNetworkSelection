@@ -54,6 +54,16 @@ void networkSelection() {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seleccion de red</title>
+    <style>
+        form{
+            text-align: center;
+        }
+        input, select{
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+    </style>
     </head>
     <body>
     <form action="/connect" method="post">
